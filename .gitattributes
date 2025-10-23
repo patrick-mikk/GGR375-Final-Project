@@ -1,0 +1,17 @@
+# Track files over 50MB with Git LFS
+
+# Zip files
+Green[[:space:]]Space[[:space:]]&[[:space:]]Income/data/lcsd000b21a_e.zip filter=lfs diff=lfs merge=lfs -text
+Green[[:space:]]Space[[:space:]]&[[:space:]]Income/data/Property[[:space:]]Boundaries[[:space:]]-[[:space:]]4326.zip filter=lfs diff=lfs merge=lfs -text
+Green[[:space:]]Space[[:space:]]&[[:space:]]Income/data/98-401-X2021007_eng_CSV.zip filter=lfs diff=lfs merge=lfs -text
+
+# Extracted shapefiles
+Green[[:space:]]Space[[:space:]]&[[:space:]]Income/data/lcsd000b21a_e/lcsd000b21a_e.shp filter=lfs diff=lfs merge=lfs -text
+Green[[:space:]]Space[[:space:]]&[[:space:]]Income/data/Property[[:space:]]Boundaries[[:space:]]-[[:space:]]4326/Property[[:space:]]Boundaries[[:space:]]-[[:space:]]4326.shp filter=lfs diff=lfs merge=lfs -text
+Green[[:space:]]Space[[:space:]]&[[:space:]]Income/data/Property[[:space:]]Boundaries[[:space:]]-[[:space:]]4326/Property[[:space:]]Boundaries[[:space:]]-[[:space:]]4326.dbf filter=lfs diff=lfs merge=lfs -text
+
+# Large CSV files (files over 2GB cannot be pushed to GitHub even with LFS)
+# The 2.5GB CSV file is excluded in .gitignore
+
+# Exclude virtual environment files from LFS tracking
+.venv/** -filter -diff -merge -text
