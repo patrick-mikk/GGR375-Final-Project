@@ -1,9 +1,10 @@
 geopandas
 pandas
-folium
+folium>=0.12
 numpy
 scipy
 matplotlib
+mapclassify
 seaborn
 osmnx
 networkx
