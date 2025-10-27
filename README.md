@@ -1,14 +1,18 @@
 # GGR375: Introduction to Programming in GIS
 
+### **Course Information**
+**Instructor:** Professor Ignacio Tiznado-Aitken <br>
+**Course:** GGR375H1 F: Introduction to Programming in GIS <br>
+**TA:** Evan Powers
+
+## Final Project
+
 ### **Authors**
 Patrick A. Mikkelsen // Student Number: 1010572514 // <patrick.mikkelsen@utoronto.ca> <br>
 Mike McCracken // Student Number: [add your student number please] // <mike.mccracken@utoronto.ca> <br>
 Hugo Cheng // Student Number: 1009827323 // <hugo.cheng@mail.utoronto.ca>
 
-### **Course Information**
-**Instructor:** Professor Ignacio Tiznado-Aitken <br>
-**Course:** GGR375H1 F: Introduction to Programming in GIS <br>
-**TA:** Evan Powers
+---
 
 ### **Project Requirements (35%)**
 
